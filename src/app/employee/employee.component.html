@@ -1,0 +1,19 @@
+<br><br>
+<div class="container">
+<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let e of empList">
+        <th scope="row">{{e.id}}</th>
+        <td>{{e.name}}</td>
+        <td>{{e.age}}</td>
+      </tr>
+    </tbody>
+  </table>
+  </div>
